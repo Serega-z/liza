@@ -1,0 +1,15 @@
+.filter-card__button {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 8px;
+    border: none;
+
+    background-image: url("../../../../../images/filter-card__button.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 12px;
+    background-position: center;
+}

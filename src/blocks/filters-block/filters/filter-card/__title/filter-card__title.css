@@ -1,0 +1,17 @@
+.filter-card__title{
+    width: 216px;
+    height: 24px;
+
+    font-family: Golos;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: #212329;
+
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 8px;
+}
