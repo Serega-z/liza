@@ -6,13 +6,10 @@
     width: 248px;
     height: 57px;
     left: 32px; 
-
     flex: none;
     order: 3;
     align-self: center;
     flex-grow: 0;
     margin-bottom: 32px;
-
-    border-top: 1px solid #E6E7EB;
-    
+    border-top: 1px solid #E6E7EB; 
 }

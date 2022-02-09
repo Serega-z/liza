@@ -1,7 +1,6 @@
 .filters{
     width: 312px;
     min-height: 448px;
-
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
