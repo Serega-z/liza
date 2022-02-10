@@ -10,3 +10,14 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/_type/form_type_profile.css);
+@import url(../blocks/form/_type/form_type_account.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__inputfields/form__inputfields.css);
+@import url(../blocks/form/__inputlabel/form__inputlabel.css);
+@import url(../blocks/form/__inputfield/form__inputfield.css);
+@import url(../blocks/form/__inputarea/form__inputarea.css);
+@import url(../blocks/form/__icon/form__icon.css);
+@import url(../blocks/form/__savebutton/form__savebutton.css);
