@@ -5,6 +5,7 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
+
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__items/menu__items.css);
 @import url(../blocks/menu/__item/menu__item.css);
@@ -23,4 +24,13 @@
 @import url(../blocks/filters-block/filters/filter-card/__button/filter-card__button.css);
 @import url(../blocks/filters-block/filters/filter-oprions/filter-oprions.css);
 
-
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/_type/form_type_profile.css);
+@import url(../blocks/form/_type/form_type_account.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__inputfields/form__inputfields.css);
+@import url(../blocks/form/__inputlabel/form__inputlabel.css);
+@import url(../blocks/form/__inputfield/form__inputfield.css);
+@import url(../blocks/form/__inputarea/form__inputarea.css);
+@import url(../blocks/form/__icon/form__icon.css);
+@import url(../blocks/form/__savebutton/form__savebutton.css);
