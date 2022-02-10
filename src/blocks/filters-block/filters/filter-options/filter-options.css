@@ -1,0 +1,8 @@
+.filter-options{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 32px 0px 0px 0px;
+    list-style: none;
+}
