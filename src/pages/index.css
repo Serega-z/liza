@@ -32,4 +32,5 @@
 @import url(../blocks/filters-block/filters/filter-card/__button/filter-card__button.css);
 @import url(../blocks/filters-block/filters/filter-oprions/filter-oprions.css);
 
-
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/card/card.css);
