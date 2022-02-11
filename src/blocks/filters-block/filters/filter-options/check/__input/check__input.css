@@ -1,0 +1,15 @@
+.check__input{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.check__input:checked + .check__box{
+    background-image: url(../../../../../../images/chekbox-active.svg);
+}
+
+#check-on:checked ~ .check__title{
+    color: #F06000;
+}
