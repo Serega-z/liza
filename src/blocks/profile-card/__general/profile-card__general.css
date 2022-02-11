@@ -1,0 +1,7 @@
+.profile-card__general {
+  display: flex;
+  flex-direction: column;
+  max-width: 248px;
+  width: calc(100% - 2 * 32px);
+  margin: 32px auto 0;
+}

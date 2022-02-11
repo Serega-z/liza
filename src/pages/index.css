@@ -49,6 +49,15 @@
 @import url(../blocks/form/__icon/form__icon.css);
 @import url(../blocks/form/__savebutton/form__savebutton.css);
 
+@import url(../blocks/profile-card/profile-card.css);
+@import url(../blocks/profile-card/__status/profile-card__status.css);
+@import url(../blocks/profile-card/__name/profile-card__name.css);
+@import url(../blocks/profile-card/__general/profile-card__general.css);
+@import url(../blocks/profile-card/__exit-button/profile-card__exit-button.css);
+@import url(../blocks/profile-card/__avatar/profile-card__avatar.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/list/__cell/list__cell.css);
+
 
 
 
