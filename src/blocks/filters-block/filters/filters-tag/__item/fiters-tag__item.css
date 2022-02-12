@@ -1,9 +1,0 @@
-.filters-tag__item{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: #E6E7EB;
-    border-radius: 16px;
-    margin-right: 8px;
-    visibility: hidden;
-}
