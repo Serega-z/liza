@@ -1,3 +1,4 @@
 .profile-card__avatar {
-  max-width: 200pxж
+  width: 200px;
+  margin: 0 auto;
 }
