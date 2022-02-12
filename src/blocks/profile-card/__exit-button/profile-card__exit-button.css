@@ -3,9 +3,8 @@
   align-items: center;
   justify-content: center;
 
-  max-width: 247px;
-  min-height: 48px;
-  width: calc(100% - 2 * 32px);
+  width: 247px;
+  height: 48px;
   margin: 0 auto 32px;
   padding: 0;
 
