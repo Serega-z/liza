@@ -12,12 +12,8 @@
   color: #000000;
 }
 
-.form__inputarea:active {
-  border-color: #ff6600;
-}
-
 .form__inputarea:focus {
-  outline: none;
+  outline-color: #ff6600;
 }
 
 .form__inputarea:nth-child(2)::-webkit-calendar-picker-indicator {
