@@ -1,16 +1,3 @@
-.filters-header__button{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    width: 84px;
-    height: 28px;
-    border: none;
-    background-color: #FFFFFF;
-    visibility: hidden;
-}
-
 .filters-tag__item-button{
     width: 24px;
     height: 24px;
@@ -20,23 +7,4 @@
     background-color: Transparent;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.filters-tag__item{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: #E6E7EB;
-    border-radius: 16px;
-    margin-right: 8px;
-}
-
-.filters-tag{
-    display: flex;
-    margin-top: 32px;
-}
-
-.filters-tag__item-text{
-    margin: 0;
-    padding: 0px 8px;
 }

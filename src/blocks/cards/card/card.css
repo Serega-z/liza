@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding-right: 60px;
     width: 984px;
 }.card__additional-info-item {
     display: flex;
