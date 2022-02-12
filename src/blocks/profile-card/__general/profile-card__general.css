@@ -1,7 +1,7 @@
 .profile-card__general {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  max-width: 248px;
-  width: calc(100% - 2 * 32px);
+  width: 248px;
   margin: 32px auto 0;
 }

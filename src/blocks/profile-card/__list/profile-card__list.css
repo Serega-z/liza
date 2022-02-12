@@ -1,4 +1,4 @@
-.list {
+.profile-card__list {
   display: flex;
   flex-direction: column;
   max-width: 248px;
