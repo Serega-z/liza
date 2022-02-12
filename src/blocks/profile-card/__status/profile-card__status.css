@@ -1,0 +1,11 @@
+.profile-card__status {
+  max-width: 216px;
+  color: #212329;
+  margin: 0 0 0 10px;
+  
+  font-family: Golos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
