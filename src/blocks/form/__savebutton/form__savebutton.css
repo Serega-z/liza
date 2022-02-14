@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-.form__savebutton:active {
+.form__savebutton:disabled {
   background-color: #e6e7eb;
   color: #9397a3;
 }
