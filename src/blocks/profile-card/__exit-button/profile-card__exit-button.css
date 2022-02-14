@@ -1,0 +1,25 @@
+.profile-card__exit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 247px;
+  min-height: 48px;
+  width: calc(100% - 2 * 32px);
+  margin: 0 auto 32px;
+  padding: 0;
+
+  background: #FFFFFF;
+  border: 1.2px solid #E6E7EB;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  font-family: Golos;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FF6600;
+
+  column-gap: 12px;
+}

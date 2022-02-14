@@ -1,0 +1,24 @@
+.filter-point {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 248px;
+    min-height: 57px;
+    left: 32px; 
+    flex: none;
+    order: 3;
+    align-self: center;
+    flex-grow: 0;
+    margin-bottom: 32px;
+    border-top: 1px solid #E6E7EB; 
+}
+
+.filter-point:hover > .filter-options{
+    position: static;
+    z-index: 1;
+}
+
+.filter-point:hover > .filter-card > .filter-card__button{
+    transform: rotate(180deg);
+}
