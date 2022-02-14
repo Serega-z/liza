@@ -61,7 +61,8 @@
 @import url(../blocks/profile-card/__avatar/profile-card__avatar.css);
 @import url(../blocks/profile-card/__list/profile-card__list.css);
 @import url(../blocks/profile-card/__list/__cell/profile-card__cell.css);
-
+@import url(../blocks/profile-card/__info-block/profile-card__info-block.css);
+@import url(../blocks/profile/__text/profile__text.css);
 
 
 

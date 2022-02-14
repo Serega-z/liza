@@ -1,9 +1,9 @@
 .page {
     color: #212329;
-    margin: 0 auto;
+    margin: 0;
     background-color: #FCFCFC;
     font-family: "Golos", "arial", sans-serif;
     display: flex;
     flex-flow: column;
-    max-width: 1440px;
+    width: 100vw;
   }
