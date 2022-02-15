@@ -1,7 +1,7 @@
 .filters-header{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     width: 248px;
     height: 28px;
     flex: none;
