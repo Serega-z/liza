@@ -8,3 +8,7 @@
   margin-left: 16px;
   margin-bottom: 8px;
 }
+
+.form__inputlabel:hover{
+  cursor: pointer;
+}
