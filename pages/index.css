@@ -51,7 +51,6 @@
 @import url(../blocks/form/__inputfield/form__inputfield.css);
 @import url(../blocks/form/__inputarea/form__inputarea.css);
 @import url(../blocks/form/__icon/form__icon.css);
-@import url(../blocks/form/__savebutton/form__savebutton.css);
 
 @import url(../blocks/profile-card/profile-card.css);
 @import url(../blocks/profile-card/__status/profile-card__status.css);
@@ -71,6 +70,7 @@
 @import url(../blocks/cards-block/card/__button/button-default.css);
 @import url(../blocks/cards-block/card/__button/button_orange/button-default_orange.css);
 @import url(../blocks/cards-block/card/__button/button_white/button-default_white.css);
+@import url(../blocks/cards-block/card/__button/button_center/button-default_center.css);
 @import url(../blocks/cards-block/card/__course/card__course.css);
 @import url(../blocks/cards-block/card/__course/__course-description/card__course-description.css);
 @import url(../blocks/cards-block/card/__course/__course-image/card__course-image.css);

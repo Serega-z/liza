@@ -3,3 +3,12 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.button-default_orange:hover{
+    background-color: #F06000;
+}
+
+.button-default_orange:disabled {
+    background-color: #e6e7eb;
+    color: #9397a3;
+  }
