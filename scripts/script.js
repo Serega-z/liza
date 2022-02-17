@@ -1,5 +1,4 @@
-const orangeButton = document.querySelector('.button-default_orange');
-const whiteButton = document.querySelector('.button-default_white');
+const whiteButtons = document.querySelectorAll('.button-default_white');
 
 function changeButton (evt){
   evt.target.classList.remove('button-default_white');
@@ -7,4 +6,4 @@ function changeButton (evt){
   evt.target.innerText = "Продолжить";
 }
 
-whiteButton.addEventListener('click', changeButton);
+whiteButtons.forEach(item => item.addEventListener('click', changeButton));
