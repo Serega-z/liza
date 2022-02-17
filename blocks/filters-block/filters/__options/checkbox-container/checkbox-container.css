@@ -9,7 +9,7 @@
     margin-top: 0px;
 }
 
-.check:hover{
+.checkbox-container:hover{
 	cursor: pointer;
 	opacity: .6;
 }
