@@ -2,8 +2,8 @@
     color: #212329;
     margin: 0;
     background-color: #FCFCFC;
-    font-family: "Golos", "arial", sans-serif;
     display: flex;
     flex-flow: column;
     width: 100vw;
+    font-family: Golos, Arial, sans-serif;
   }

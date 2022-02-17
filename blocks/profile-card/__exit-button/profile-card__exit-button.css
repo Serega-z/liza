@@ -13,7 +13,6 @@
   box-sizing: border-box;
   border-radius: 16px;
 
-  font-family: Golos;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -22,4 +21,9 @@
 
   column-gap: 12px;
   cursor: pointer;
+}
+
+.profile-card__exit-button:hover{
+  border: 1.2px solid  #FF6600;
+
 }
