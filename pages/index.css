@@ -22,25 +22,23 @@
 @import url(../blocks/profile/__help-info-list/profile__help-info-list.css);
 
 @import url(../blocks/filters-block/filters-block.css);
-@import url(../blocks/filters-block/filters/filters.css);
-@import url(../blocks/filters-block/filters/filters-header/filters-header.css);
-@import url(../blocks/filters-block/filters/filters-header/__title/filters-header__title.css);
-@import url(../blocks/filters-block/filters/filters-header/__button/filters-header__button.css);
-@import url(../blocks/filters-block/filters/filters-header/__button/_active/filters-header__button_active.css);
-@import url(../blocks/filters-block/filters/filter-point/filter-point.css);
-@import url(../blocks/filters-block/filters/filter-card/filter-card.css);
-@import url(../blocks/filters-block/filters/filter-card/__title/filter-card__title.css);
-@import url(../blocks/filters-block/filters/filter-card/__button/filter-card__button.css);
-@import url(../blocks/filters-block/filters/filter-options/filter-options.css);
-@import url(../blocks/filters-block/filters/filter-options/check/check.css);
-@import url(../blocks/filters-block/filters/filter-options/check/__input/check__input.css);
-@import url(../blocks/filters-block/filters/filter-options/check/__box/check__box.css);
-@import url(../blocks/filters-block/filters/filter-options/check/__title/check__title.css);
-@import url(../blocks/filters-block/filters/filters-tag/filters-tag.css);
-@import url(../blocks/filters-block/filters/filters-tag/__item/fiters-tag__item.css);
-@import url(../blocks/filters-block/filters/filters-tag/__item/__item-text/filters-tag__item-text.css);
-@import url(../blocks/filters-block/filters/filters-tag/__item/__item-button/filters-tag__item-button.css);
-
+@import url(../blocks/filters-block/filters/filters-list.css);
+@import url(../blocks/filters-block/filters/__point/filters-list__point.css);
+@import url(../blocks/filters-block/filters/__point/__item/filters-list__item.css);
+@import url(../blocks/filters-block/filters/__point/__item/__text/filters-list__text.css);
+@import url(../blocks/filters-block/filters/__point/__item/__button/filters-list__button.css);
+@import url(../blocks/filters-block/filters/__options/filters__options.css);
+@import url(../blocks/filters-block/filters/__options/checkbox-container/checkbox-container.css);
+@import url(../blocks/filters-block/filters/__options/checkbox-container/__input-hidden/checkbox-container__input-hidden.css);
+@import url(../blocks/filters-block/filters/__options/checkbox-container/__content/checkbox-container__content.css);
+@import url(../blocks/filters-block/filters/__header/filters-list__header.css);
+@import url(../blocks/filters-block/filters/__header/__title/filters-list__title.css);
+@import url(../blocks/filters-block/filters/__header/__button/filters-list__reset-button.css);
+@import url(../blocks/filters-block/filters/__header/__button/_active/filters-list__button_active.css);
+@import url(../blocks/filters-block/chips-container/chips-container.css);
+@import url(../blocks/filters-block/chips-container/chips/chips.css);
+@import url(../blocks/filters-block/chips-container/chips/__text/chips__text.css);
+@import url(../blocks/filters-block/chips-container/chips/__close-button/chips__close-button.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/_type/form_type_personal.css);

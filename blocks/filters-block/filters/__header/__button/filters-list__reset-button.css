@@ -1,0 +1,24 @@
+.filters-list__reset-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    border: none;
+    background-color: #FFFFFF;
+    visibility: hidden;
+	width: 84px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.filters-list__reset-button:hover{
+	cursor: pointer;
+	opacity: .6;
+}
