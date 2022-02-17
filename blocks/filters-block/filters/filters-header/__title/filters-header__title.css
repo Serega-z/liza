@@ -1,5 +1,6 @@
 .filters-header__title {
     height: 28px;
+	width: 156px;
     font-family: Golos;
     font-style: normal;
     font-weight: bold;
@@ -10,4 +11,7 @@
     order: 0;
     flex-grow: 1;
     margin: 0px 0px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }

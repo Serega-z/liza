@@ -41,7 +41,7 @@
                 <h1 class="main__title">Курсы</h1>
                 <div class="main__blocks">
                     <section class="filters-block">
-                        <div class="filters">
+                        <form class="filters" name="filters">
                             <div class="filters-header">
                                 <h3 class="filters-header__title">Фильтры</h3>
 
@@ -72,8 +72,8 @@
 
                                 <div class="filter-options">
                                     <label class="check">
-                                        <input type="checkbox" class="check__input" value="Новичок"/>
-                                        <span class="check__box"></span>
+                                        <input type="checkbox" class="check__input" value="Новичок"/> <!-- Скрываю стандатный чекбокс-->
+                                        <span class="check__box"></span>                              <!-- Создаю элемент для кастомизации чекбокса -->
                                         <span class="check__title">Новичок</span>
                                     </label>
 
@@ -123,12 +123,12 @@
                                     </label>
                                 </div>
                             </div>
-                        </div>
+                        </form>
 
                         <div class="filters-tag">
                             <div class="filters-tag__item">
                                 <p class="filters-tag__item-text">Новичок</p>
-                                <button class="filters-tag__item-button"></button>
+                                <button class="filters-tag__item-button" type="button"></button>
                             </div>
 
                             <div class="filters-tag__item">
@@ -429,5 +429,6 @@
                 </div>
             </main>
         </div>
+		<script src="./scripts/script.js"></script>
     </body>
 </html>

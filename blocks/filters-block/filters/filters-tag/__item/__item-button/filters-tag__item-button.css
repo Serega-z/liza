@@ -8,3 +8,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.filters-tag__item-button:hover{
+	cursor: pointer;
+	opacity: .6;
+}

@@ -1,4 +1,4 @@
-.check__title {   
+.check__title {
     width: 216px;
     height: 24px;
     font-family: Golos;
@@ -8,5 +8,8 @@
     line-height: 24px;
     color: #212329;
     margin: 0px 0px;
-    padding-left: 10px; 
+    padding-left: 10px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
