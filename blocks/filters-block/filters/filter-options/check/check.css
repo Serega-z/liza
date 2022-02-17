@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 16px;  
+    margin-top: 16px;
 }
 
 .check:first-child{
     margin-top: 0px;
+}
+
+.check:hover{
+	cursor: pointer;
+	opacity: .6;
 }

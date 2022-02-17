@@ -10,4 +10,7 @@
     order: 1;
     flex-grow: 1;
     margin: 0px 8px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
