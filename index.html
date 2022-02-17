@@ -41,99 +41,99 @@
                 <h1 class="main__title">Курсы</h1>
                 <div class="main__blocks">
                     <section class="filters-block">
-                        <form class="filters" name="filters">
-                            <div class="filters-header">
-                                <h3 class="filters-header__title">Фильтры</h3>
+                        <form class="filters-list" name="filters-list">
+                            <div class="filters-list__header">
+                                <h3 class="filters-list__title">Фильтры</h3>
 
-                                <button class="filters-header__button" type="reset">
+                                <button class="filters-list__reset-button" type="reset">
                                     Очистить
                                 </button>
                             </div>
 
-                            <div class="filter-point">
-                                <div class="filter-card">
-                                    <p class="filter-card__title">Категория</p>
-                                    <button class="filter-card__button" type="button"></button>
+                            <div class="filters-list__point">
+                                <div class="filters-list__item">
+                                    <p class="filters-list__text">Категория</p>
+                                    <button class="filters-list__button" type="button"></button>
                                 </div>
                             </div>
 
-                            <div class="filter-point">
-                                <div class="filter-card">
-                                    <p class="filter-card__title">Тематика</p>
-                                    <button class="filter-card__button" type="button"></button>
+                            <div class="filters-list__point">
+                                <div class="filters-list__item">
+                                    <p class="filters-list__text">Тематика</p>
+                                    <button class="filters-list__button" type="button"></button>
                                 </div>
                             </div>
 
-                            <div class="filter-point">
-                                <div class="filter-card">
-                                    <p class="filter-card__title">Уровень</p>
-                                    <button class="filter-card__button" type="button"></button>
+                            <div class="filters-list__point">
+                                <div class="filters-list__item">
+                                    <p class="filters-list__text">Уровень</p>
+                                    <button class="filters-list__button" type="button"></button>
                                 </div>
 
-                                <div class="filter-options">
-                                    <label class="check">
-                                        <input type="checkbox" class="check__input" value="Новичок"/> <!-- Скрываю стандатный чекбокс-->
-                                        <span class="check__box"></span>                              <!-- Создаю элемент для кастомизации чекбокса -->
-                                        <span class="check__title">Новичок</span>
+                                <div class="filters__options">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" class="checkbox-container__input-hidden" value="Новичок"/>
+
+                                        <span class="checkbox-container__content">Новичок</span>
                                     </label>
 
-                                    <label class="check">
-                                        <input type="checkbox" class="check__input" value="Бывалый"/>
-                                        <span class="check__box"></span>
-                                        <span class="check__title">Бывалый</span>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" class="checkbox-container__input-hidden" value="Бывалый"/>
+
+                                        <span class="checkbox-container__content">Бывалый</span>
                                     </label>
 
-                                    <label class="check">
-                                        <input type="checkbox" class="check__input" value="Профессионал"/>
-                                        <span class="check__box"></span>
-                                        <span class="check__title">Профессионал</span>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" class="checkbox-container__input-hidden" value="Профессионал"/>
+
+                                        <span class="checkbox-container__content">Профессионал</span>
                                     </label>
                                 </div>
                             </div>
 
-                            <div class="filter-point">
-                                <div class="filter-card">
-                                    <p class="filter-card__title">Статус</p>
-                                    <button class="filter-card__button" type="button"></button>
+                            <div class="filters-list__point">
+                                <div class="filters-list__item">
+                                    <p class="filters-list__text">Статус</p>
+                                    <button class="filters-list__button" type="button"></button>
                                 </div>
 
-                                <div class="filter-options">
-                                    <label class="check">
-                                        <input type="checkbox" class="check__input" value="Не активный"/>
-                                        <span class="check__box"></span>
-                                        <span class="check__title">Не активный</span>
+                                <div class="filters__options">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" class="checkbox-container__input-hidden" value="Не активный"/>
+
+                                        <span class="checkbox-container__content">Не активный</span>
                                     </label>
 
-                                    <label class="check">
-                                        <input type="checkbox" class="check__input" value="Вы записаны" />
-                                        <span class="check__box"></span>
-                                        <span class="check__title">Вы записаны</span>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" class="checkbox-container__input-hidden" value="Вы записаны" />
+
+                                        <span class="checkbox-container__content">Вы записаны</span>
                                     </label>
 
-                                    <label class="check">
-                                        <input type="checkbox" class="check__input" value="Активный"/>
-                                        <span class="check__box"></span>
-                                        <span class="check__title">Активный</span>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" class="checkbox-container__input-hidden" value="Активный"/>
+
+                                        <span class="checkbox-container__content">Активный</span>
                                     </label>
 
-                                    <label class="check">
-                                        <input type="checkbox" class="check__input" value="Пройден"/>
-                                        <span class="check__box"></span>
-                                        <span class="check__title">Пройден</span>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" class="checkbox-container__input-hidden" value="Пройден"/>
+
+                                        <span class="checkbox-container__content">Пройден</span>
                                     </label>
                                 </div>
                             </div>
                         </form>
 
-                        <div class="filters-tag">
-                            <div class="filters-tag__item">
-                                <p class="filters-tag__item-text">Новичок</p>
-                                <button class="filters-tag__item-button" type="button"></button>
+                        <div class="chips-container">
+                            <div class="chips">
+                                <p class="chips__text">Новичок</p>
+                                <button class="chips__close-button" type="button"></button>
                             </div>
 
-                            <div class="filters-tag__item">
-                                <p class="filters-tag__item-text">Бывалый</p>
-                                <button class="filters-tag__item-button" type="button"></button>
+                            <div class="chips">
+                                <p class="chips__text">Бывалый</p>
+                                <button class="chips__close-button" type="button"></button>
                             </div>
                         </div>
                     </section>
