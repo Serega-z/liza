@@ -1,0 +1,12 @@
+.selected__option{
+  display: flex;
+  flex-direction: row;
+  min-width: 113px;
+  width: min-content;
+  height: 24px;
+  background-color: #E6E7EB;
+  border-radius: 16px;
+  padding-left: 8px;
+  margin: 0 8px 8px 0;
+  box-sizing: border-box;
+}

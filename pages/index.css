@@ -42,6 +42,11 @@
 @import url(../blocks/filters-block/chips-container/chips/__text/chips__text.css);
 @import url(../blocks/filters-block/chips-container/chips/__close-button/chips__close-button.css);
 
+@import url(../blocks/selected/selected.css);
+@import url(../blocks/selected/__option/selected__option.css);
+@import url(../blocks/selected/__option/__text/option__text.css);
+@import url(../blocks/selected/__option/__button/option__button.css);
+
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/_type/form_type_personal.css);
 @import url(../blocks/form/_type/form_type_account.css);
