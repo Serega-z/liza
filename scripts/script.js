@@ -4,10 +4,9 @@ const levelButton = document.getElementById('filterslevel');
 const statusButton = document.getElementById('filtersstatus');
 const filtersOptLevel = document.querySelector('.filters__options_type_level');
 const filtersOptStatus = document.querySelector('.filters__options_type_status');
-const selectedTemplate = document.querySelector('#selectedoption').content;
 const selectedOptions = document.querySelector('.selected');
-const selectedOption = selectedTemplate.querySelector('.selected__option').cloneNode(true);
 const checkBoxes = filtersOptLevel.querySelectorAll('.checkbox-container__input-hidden');
+const selectedTemplate = document.querySelector('#selectedoption').content;
 
 function changeButton (evt){
   evt.target.classList.remove('button-default_white');
@@ -25,16 +24,27 @@ function toggleFilterStatus(){
   statusButton.classList.toggle('filters-list__button_open');
 }
 
-checkBoxes.forEach(item => item.addEventListener('click', function checked(evt) {
-  if (item.checked) {
-    selectedOption.querySelector('.option__text').textContent = evt.target.parentElement.textContent;
-    selectedOptions.append(selectedOption); 
-  }
-}));
+function filterClickEventListener(evt) {
+  selectedOptions.innerHTML = '';
+  const textLabels = getSelectedFilters();
+  textLabels
+    .map(text => createLabel(text))
+    .forEach(label => selectedOptions.append(label));
+}
 
+function getSelectedFilters() {
+  const checkedCheckboxes = Array.from(checkBoxes).filter(e => e.checked);
+  return checkedCheckboxes.map(e => e.value);
+}
 
+function createLabel(text) {
+  const template = selectedTemplate.querySelector('.selected__option');
+  const newLabel = template.cloneNode(true);
+  newLabel.querySelector('.option__text').textContent = text;
+  return newLabel;
+}
+
+checkBoxes.forEach(item => item.addEventListener('click', filterClickEventListener));
 whiteButtons.forEach(item => item.addEventListener('click', changeButton));
 levelButton.addEventListener('click', toggleFilterLevel);
 statusButton.addEventListener('click', toggleFilterStatus);
-
-
