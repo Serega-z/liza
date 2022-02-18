@@ -1,15 +1,12 @@
 const whiteButtons = document.querySelectorAll('.button-default_white');
-const filterButtons = document.querySelectorAll('.filter-card__button');
 const levelButton = document.getElementById('filterslevel');
 const statusButton = document.getElementById('filtersstatus');
 const filtersOptLevel = document.querySelector('.filters__options_type_level');
 const filtersOptStatus = document.querySelector('.filters__options_type_status');
-const selectedTemplate = document.querySelector('#selectedoption').content;
-const selectedOptions = document.querySelector('.selected');
-const selectedOption = selectedTemplate.querySelector('.selected__option').cloneNode(true);
-const checkBoxes = filtersOptLevel.querySelectorAll('.checkbox-container__input-hidden');
-
-
+const chipsContainer = document.querySelector('.chips-container');
+const checkboxContainer = document.querySelectorAll('.filters__options');
+const chipTemplate = document.querySelector('#chips-template').content;
+const checkboxResetButton = document.querySelector('.filters-list__reset-button');
 
 function changeButton (evt){
   evt.target.classList.remove('button-default_white');
@@ -27,85 +24,71 @@ function toggleFilterStatus(){
   statusButton.classList.toggle('filters-list__button_open');
 }
 
-checkBoxes.forEach(item => item.addEventListener('click', function checked(evt) {
-  if (item.checked) {
-    selectedOption.querySelector('.option__text').textContent = evt.target.parentElement.textContent;
-    selectedOptions.append(selectedOption); 
-  }
-}));
-
-
-whiteButtons.forEach(item => item.addEventListener('click', changeButton));
-levelButton.addEventListener('click', toggleFilterLevel);
-statusButton.addEventListener('click', toggleFilterStatus);
-
-
-const chipsContainer = document.querySelector('.chips-container');
-const checkboxContainer = document.querySelectorAll('.filters__options');
-const chipTemplate = document.querySelector('#chips-template').content
-const checkboxResetButton = document.querySelector('.filters-list__reset-button');
-
 checkedItems = {};
 
-function checkboxResetButtonActive(){
-	if(Object.entries(checkedItems).length > 0){
+function checkboxResetButtonActive() {
+	if (Object.entries(checkedItems).length > 0) {
 		checkboxResetButton.classList.add('filters-list__reset-button_active');
-		;
-	}else{
+	} else {
 		checkboxResetButton.classList.remove('filters-list__reset-button_active');
 	}
 }
 
-function seachLabelText(input){
- return input?.closest('.checkbox-container')?.textContent.trim();
+function searchLabelText(input) {
+  return input?.closest('.checkbox-container')?.textContent.trim();
 }
 
-function addChips(input, containerChips) {
-    const textInput = seachLabelText(input);
-    const chips = chipTemplate.querySelector('.chips').cloneNode(true);
+function addChips(input) {
+    const textInput = searchLabelText(input);
 
-    chips.querySelector('.chips__text').textContent = textInput;
+    const chips = createChips(textInput);
+
     checkedItems[textInput] = {input, chips};
 
-    function handleClickChips(e) {
-        e.preventDefault();
-        checkedItems[textInput].input.checked = false;
-        delete checkedItems[textInput];
-        chips.remove();
-    }
-    chips.addEventListener('click', handleClickChips)
-
-    containerChips.append(chips)
-    return chips;
+    chipsContainer.append(chips);
 }
 
 function removeChips(input) {
-    const textInput = seachLabelText(input);
-    const chips = checkedItems[textInput].chips;
-    delete checkedItems[textInput];
+  const textInput = searchLabelText(input);
+  const chips = checkedItems[textInput].chips;
+  delete checkedItems[textInput];
+  chips.remove();
+}
+
+function createChips(text) {
+  const chips = chipTemplate.querySelector('.chips').cloneNode(true);
+
+  chips.querySelector('.chips__text').textContent = text;
+
+  chips.addEventListener('click', e => {
+    e.preventDefault();
+    checkedItems[text].input.checked = false;
+    delete checkedItems[text];
     chips.remove();
+  });
+
+  return chips;
 }
 
 function handleInputCheckbox(e) {
     const inputCheckbox = e.target;
 
-        if (inputCheckbox.checked) {
-            addChips(inputCheckbox, chipsContainer)
+    if (inputCheckbox.checked) {
+        addChips(inputCheckbox)
+    } else {
+        removeChips(inputCheckbox)
+    }
 
-        } else {
-            removeChips(inputCheckbox)
-
-        }
-		checkboxResetButtonActive()
+		checkboxResetButtonActive();
 }
 
-checkboxContainer.forEach((e)=>{
-  e.addEventListener('input', handleInputCheckbox)
-});
+levelButton.addEventListener('click', toggleFilterLevel);
+statusButton.addEventListener('click', toggleFilterStatus);
 
-checkboxResetButton.addEventListener('click', ()=>{
-	chipsContainer.querySelectorAll('div').forEach(el =>{
-		el.remove();
-	});
+whiteButtons.forEach(item => item.addEventListener('click', changeButton));
+checkboxContainer.forEach(e => e.addEventListener('input', handleInputCheckbox));
+
+checkboxResetButton.addEventListener('click', () => {
+	chipsContainer.querySelectorAll('div').forEach(el => el.remove());
 	checkboxResetButton.classList.remove('filters-list__reset-button_active');
-})
+});
