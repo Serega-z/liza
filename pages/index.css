@@ -41,6 +41,11 @@
 @import url(../blocks/filters-block/chips-container/chips/__text/chips__text.css);
 @import url(../blocks/filters-block/chips-container/chips/__close-button/chips__close-button.css);
 
+@import url(../blocks/selected/selected.css);
+@import url(../blocks/selected/__option/selected__option.css);
+@import url(../blocks/selected/__option/__text/option__text.css);
+@import url(../blocks/selected/__option/__button/option__button.css);
+
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/_type/form_type_personal.css);
 @import url(../blocks/form/_type/form_type_account.css);
@@ -49,6 +54,7 @@
 @import url(../blocks/form/__inputlabel/form__inputlabel.css);
 @import url(../blocks/form/__inputfield/form__inputfield.css);
 @import url(../blocks/form/__inputarea/form__inputarea.css);
+@import url(../blocks/form/__inputimage/form__inputimage.css);
 @import url(../blocks/form/__icon/form__icon.css);
 
 @import url(../blocks/profile-card/profile-card.css);
@@ -66,6 +72,7 @@
 @import url(../blocks/cards-block/card/__additional-info/card__additional-info.css);
 @import url(../blocks/cards-block/card/__additional-info/__additional-info-item/card__additional-info-item.css);
 @import url(../blocks/cards-block/card/__additional-info/__additional-info-items/card__additional-info-items.css);
+@import url(../blocks/cards-block/card/__additional-info/__additional-info-image/card__additional-info-image.css);
 @import url(../blocks/cards-block/card/__button/button-default.css);
 @import url(../blocks/cards-block/card/__button/button_orange/button-default_orange.css);
 @import url(../blocks/cards-block/card/__button/button_white/button-default_white.css);
