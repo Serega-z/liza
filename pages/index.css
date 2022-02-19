@@ -40,6 +40,7 @@
 @import url(../blocks/filters-block/chips-container/chips/chips.css);
 @import url(../blocks/filters-block/chips-container/chips/__text/chips__text.css);
 @import url(../blocks/filters-block/chips-container/chips/__close-button/chips__close-button.css);
+@import url(../blocks/filters-block/filters/__button/_open/filters-list__button_open.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/_type/form_type_personal.css);
@@ -50,7 +51,6 @@
 @import url(../blocks/form/__inputfield/form__inputfield.css);
 @import url(../blocks/form/__inputarea/form__inputarea.css);
 @import url(../blocks/form/__inputimage/form__inputimage.css);
-@import url(../blocks/form/__icon/form__icon.css);
 
 @import url(../blocks/profile-card/profile-card.css);
 @import url(../blocks/profile-card/__status/profile-card__status.css);
@@ -64,19 +64,19 @@
 @import url(../blocks/profile/__text/profile__text.css);
 
 @import url(../blocks/cards-block/cards-block.css);
-@import url(../blocks/cards-block/card/__additional-info/card__additional-info.css);
-@import url(../blocks/cards-block/card/__additional-info/__additional-info-item/card__additional-info-item.css);
-@import url(../blocks/cards-block/card/__additional-info/__additional-info-items/card__additional-info-items.css);
-@import url(../blocks/cards-block/card/__additional-info/__additional-info-image/card__additional-info-image.css);
+@import url(../blocks/cards-block/card/__additionalinfo/card-course__additionalinfo.css);
+@import url(../blocks/cards-block/card/__additionalinfo/__image/card-course__additionalinfo__image.css);
+@import url(../blocks/cards-block/card/__additionalinfo/__item/card-course__additionalinfo__item.css);
+@import url(../blocks/cards-block/card/__additionalinfo/__items/card-course__additionalinfo__items.css);
 @import url(../blocks/cards-block/card/__button/button-default.css);
-@import url(../blocks/cards-block/card/__button/button_orange/button-default_orange.css);
-@import url(../blocks/cards-block/card/__button/button_white/button-default_white.css);
-@import url(../blocks/cards-block/card/__button/button_center/button-default_center.css);
-@import url(../blocks/cards-block/card/__course/card__course.css);
-@import url(../blocks/cards-block/card/__course/__course-description/card__course-description.css);
-@import url(../blocks/cards-block/card/__course/__course-image/card__course-image.css);
-@import url(../blocks/cards-block/card/__course/__course-info/card__course-info.css);
-@import url(../blocks/cards-block/card/__course/__course-lessons-hours/card__course-lessons-hours.css);
-@import url(../blocks/cards-block/card/__course/__course-level/card__course-level.css);
-@import url(../blocks/cards-block/card/__course/__course-title/card__course-title.css);
-@import url(../blocks/cards-block/card/__course/__course-wrapper/card__course-wrapper.css);
+@import url(../blocks/cards-block/card/__button/_center/button-default_center.css);
+@import url(../blocks/cards-block/card/__button/_orange/button-default_orange.css);
+@import url(../blocks/cards-block/card/__button/_white/button-default_white.css);
+@import url(../blocks/cards-block/card/__course/card-course.css);
+@import url(..//blocks/cards-block/card/__course/__description/card-course__description.css);
+@import url(../blocks/cards-block/card/__course/__image/card-course__image.css);
+@import url(../blocks/cards-block/card/__course/__info/card-course__info.css);
+@import url(../blocks/cards-block/card/__course/__lessons-hours/card-course__lessons-hours.css);
+@import url(../blocks/cards-block/card/__course/__level/card-course__level.css);
+@import url(../blocks/cards-block/card/__course/__title/card-course__title.css);
+@import url(../blocks/cards-block/card/__course/__wrapper/card-course__wrapper.css);

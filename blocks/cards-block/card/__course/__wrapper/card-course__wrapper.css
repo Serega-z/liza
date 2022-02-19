@@ -1,4 +1,4 @@
-.card__course-wrapper {
+.card-course__wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
