@@ -1,6 +1,6 @@
 .profile{
-    display: grid;
-    grid-template-columns: 312px 984px;
-    padding: 0 60px;
-    grid-column-gap: 24px;
+  display: grid;
+  grid-template-columns: 312px 984px;
+  padding: 0 60px;
+  grid-column-gap: 24px;
 }
