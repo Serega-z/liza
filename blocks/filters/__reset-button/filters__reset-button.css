@@ -1,4 +1,4 @@
-.filters-list__reset-button{
+.filters__reset-button{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -18,7 +18,7 @@
     overflow: hidden;
 }
 
-.filters-list__reset-button:hover{
+.filters__reset-button:hover{
 	cursor: pointer;
 	opacity: .6;
 }
