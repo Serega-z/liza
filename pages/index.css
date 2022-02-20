@@ -56,6 +56,7 @@
 @import url(../blocks/form/__inputfield/form__inputfield.css);
 @import url(../blocks/form/__inputarea/form__inputarea.css);
 @import url(../blocks/form/__inputimage/form__inputimage.css);
+@import url(../blocks/form/__button/form__button.css);
 
 @import url(../blocks/profile-card/profile-card.css);
 @import url(../blocks/profile-card/__status/profile-card__status.css);
@@ -68,8 +69,7 @@
 @import url(../blocks/profile-card/__info-block/profile-card__info-block.css);
 @import url(../blocks/profile/__text/profile__text.css);
 
-@import url(../blocks/button-default/button-default.css);
-@import url(../blocks/button-default/_center/button-default_position_center.css);
+@import url(../blocks//button/button.css);
 @import url(../blocks/button-primary/button-primary.css);
 @import url(../blocks/button-secondary/button-secondary.css);
 

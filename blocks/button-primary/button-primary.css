@@ -8,8 +8,3 @@
 .button-primary:hover{
     background-color: #F06000;
 }
-
-.button-primary:disabled {
-    background-color: #e6e7eb;
-    color: #9397a3;
-  }

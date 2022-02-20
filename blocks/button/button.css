@@ -1,4 +1,4 @@
-.button-default{
+.button {
     background-color: #E6E7EB;
     color: #9397A3;
     width: 224px;
@@ -18,3 +18,8 @@
     align-content: center;
     justify-content: center;
 }
+
+.button:disabled {
+    background-color: #e6e7eb;
+    color: #9397a3;
+  }
