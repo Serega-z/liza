@@ -1,4 +1,4 @@
-.filters-list__button {
+.filters__button {
     width: 24px;
     height: 24px;
     flex: none;
@@ -13,7 +13,7 @@
     background-position: center;
 }
 
-.filters-list__button:hover{
+.filters__button:hover{
 	cursor: pointer;
 	opacity: .6;
 }

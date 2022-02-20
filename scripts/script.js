@@ -6,7 +6,7 @@ const filtersOptStatus = document.querySelector('.filters__options_type_status')
 const chipsContainer = document.querySelector('.chips-container');
 const checkboxContainer = document.querySelectorAll('.filters__options');
 const chipTemplate = document.querySelector('#chips-template').content;
-const checkboxResetButton = document.querySelector('.filters-list__reset-button');
+const checkboxResetButton = document.querySelector('.filters__reset-button');
 
 function changeButton (evt){
   evt.target.classList.remove('button-default_white');
@@ -16,21 +16,21 @@ function changeButton (evt){
 
 function toggleFilterLevel(){
   filtersOptLevel.classList.toggle('filters__options_opened');
-  levelButton.classList.toggle('filters-list__button_open');
+  levelButton.classList.toggle('filters__button_open');
 }
 
 function toggleFilterStatus(){
   filtersOptStatus.classList.toggle('filters__options_opened');
-  statusButton.classList.toggle('filters-list__button_open');
+  statusButton.classList.toggle('filters__button_open');
 }
 
 checkedItems = {};
 
 function checkboxResetButtonActive() {
 	if (Object.entries(checkedItems).length > 0) {
-		checkboxResetButton.classList.add('filters-list__reset-button_active');
+		checkboxResetButton.classList.add('filters__reset-button_active');
 	} else {
-		checkboxResetButton.classList.remove('filters-list__reset-button_active');
+		checkboxResetButton.classList.remove('filters__reset-button_active');
 	}
 }
 
@@ -90,5 +90,5 @@ checkboxContainer.forEach(e => e.addEventListener('input', handleInputCheckbox))
 
 checkboxResetButton.addEventListener('click', () => {
 	chipsContainer.querySelectorAll('div').forEach(el => el.remove());
-	checkboxResetButton.classList.remove('filters-list__reset-button_active');
+	checkboxResetButton.classList.remove('filters__reset-button_active');
 });
