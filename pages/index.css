@@ -25,13 +25,11 @@
 @import url(../blocks/profile/__help-info-list/profile__help-info-list.css);
 
 @import url(../blocks/filters/filters.css);
-@import url(../blocks/filters/_open/filters_open.css);
 @import url(../blocks/filters/__button/filters__button.css);
 @import url(../blocks/filters/__button/_open/filters__button_open.css);
 @import url(../blocks/filters/__header/filters__header.css);
 @import url(../blocks/filters/__item/filters__item.css);
 @import url(../blocks/filters/__options/filters__options.css);
-@import url(../blocks/filters/__options/_opened/filters__options_opened.css);
 @import url(../blocks/filters/__point/filters__point.css);
 @import url(../blocks/filters/__reset-button/filters__reset-button.css);
 @import url(../blocks/filters/__reset-button/_active/filters__button_active.css);
