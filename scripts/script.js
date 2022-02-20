@@ -1,8 +1,8 @@
-const whiteButtons = document.querySelectorAll('.button-secondary');
+const whiteButtons = document.querySelectorAll('.button_type_secondary');
 
 function changeButton (evt){
-  evt.target.classList.remove('button-secondary');
-  evt.target.classList.add('button-primary');
+  evt.target.classList.remove('button_type_secondary');
+  evt.target.classList.add('button_type_primary');
   evt.target.innerText = "Продолжить";
 }
 

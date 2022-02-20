@@ -1,7 +1,8 @@
 .button {
     background-color: #E6E7EB;
     color: #9397A3;
-    width: 224px;
+    min-width: 224px;
+    max-width: 246px;
     height: 48px;
     border-radius: 16px;
     border: none;
@@ -14,6 +15,7 @@
     pointer-events: none;
     cursor: default;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     align-content: center;
     justify-content: center;
