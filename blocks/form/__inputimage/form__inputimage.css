@@ -1,0 +1,8 @@
+.form__inputimage{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 14px;
+  top: 46px;
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.menu__items {
+  display: grid;
+  list-style-type: none;
+  margin: 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}

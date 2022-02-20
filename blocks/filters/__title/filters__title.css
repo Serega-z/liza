@@ -1,0 +1,15 @@
+.filters__title {
+    min-height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212329;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

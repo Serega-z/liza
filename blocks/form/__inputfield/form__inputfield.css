@@ -1,0 +1,6 @@
+.form__inputfield {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

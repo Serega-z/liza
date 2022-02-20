@@ -1,0 +1,8 @@
+.card-course__additionalinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 32px;
+    flex-wrap: nowrap;
+}

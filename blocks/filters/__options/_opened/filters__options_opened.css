@@ -1,0 +1,4 @@
+.filters__options_opened{
+  position: static;
+  z-index: 1;
+}
