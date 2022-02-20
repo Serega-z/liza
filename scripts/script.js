@@ -1,8 +1,8 @@
 const whiteButtons = document.querySelectorAll('.button-default_white');
 
 function changeButton (evt){
-  evt.target.classList.remove('button-default_white');
-  evt.target.classList.add('button-default_orange');
+  evt.target.classList.remove('button-default_color_white');
+  evt.target.classList.add('button-default_color_orange');
   evt.target.innerText = "Продолжить";
 }
 

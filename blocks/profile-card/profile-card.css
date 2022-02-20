@@ -1,6 +1,6 @@
 .profile-card {
   display: flex;
-  justify-content: center;
+  ustify-content: flex-start;
   flex-direction: column;
   width: 312px;
   min-height: 520px;
