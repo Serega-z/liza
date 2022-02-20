@@ -1,9 +1,0 @@
-.profile-card__list {
-  display: flex;
-  flex-direction: column;
-  width: 248px;
-  margin: 0 auto;
-  list-style: none;
-  padding: 0;
-  row-gap: 16px;
-}
