@@ -47,17 +47,6 @@
 @import url(../blocks/chips/__text/chips__text.css);
 @import url(../blocks/chips/__close-button/chips__close-button.css);
 
-@import url(../blocks/form/form.css);
-@import url(../blocks/form/_type/form_type_personal.css);
-@import url(../blocks/form/_type/form_type_account.css);
-@import url(../blocks/form/__heading/form__heading.css);
-@import url(../blocks/form/__inputfields/form__inputfields.css);
-@import url(../blocks/form/__inputlabel/form__inputlabel.css);
-@import url(../blocks/form/__inputfield/form__inputfield.css);
-@import url(../blocks/form/__inputarea/form__inputarea.css);
-@import url(../blocks/form/__inputimage/form__inputimage.css);
-@import url(../blocks/form/__button/form__button.css);
-
 @import url(../blocks/profile-card/profile-card.css);
 @import url(../blocks/profile-card/__status/profile-card__status.css);
 @import url(../blocks/profile-card/__name/profile-card__name.css);
@@ -72,6 +61,17 @@
 @import url(../blocks//button/button.css);
 @import url(../blocks/button/_type/button_type_primary.css);
 @import url(../blocks/button/_type/button_type_secondary.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/_type/form_type_personal.css);
+@import url(../blocks/form/_type/form_type_account.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__inputfields/form__inputfields.css);
+@import url(../blocks/form/__inputlabel/form__inputlabel.css);
+@import url(../blocks/form/__inputfield/form__inputfield.css);
+@import url(../blocks/form/__inputarea/form__inputarea.css);
+@import url(../blocks/form/__inputimage/form__inputimage.css);
+@import url(../blocks/form/__button/form__button.css);
 
 @import url(../blocks/card-course/card-course.css);
 @import url(../blocks/card-course/__additionalinfo-image/card-course__additionalinfo-image.css);

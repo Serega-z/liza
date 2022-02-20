@@ -1,14 +1,12 @@
 .button {
     background-color: #E6E7EB;
     color: #9397A3;
-    min-width: 224px;
-    max-width: 246px;
+    width: 224px;
     height: 48px;
     border-radius: 16px;
     border: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
