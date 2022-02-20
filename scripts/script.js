@@ -1,4 +1,4 @@
-const whiteButtons = document.querySelectorAll('.button-default_white');
+const whiteButtons = document.querySelectorAll('.button-default_color_white');
 
 function changeButton (evt){
   evt.target.classList.remove('button-default_color_white');
