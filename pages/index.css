@@ -70,8 +70,8 @@
 
 @import url(../blocks/button-default/button-default.css);
 @import url(../blocks/button-default/_center/button-default_position_center.css);
-@import url(../blocks/button-default/_orange/button-default_color_orange.css);
-@import url(../blocks/button-default/_white/button-default_color_white.css);
+@import url(../blocks/button-primary/button-primary.css);
+@import url(../blocks/button-secondary/button-secondary.css);
 
 @import url(../blocks/card-course/card-course.css);
 @import url(../blocks/card-course/__additionalinfo-image/card-course__additionalinfo-image.css);

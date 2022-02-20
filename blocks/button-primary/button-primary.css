@@ -1,15 +1,15 @@
-.button-default_color_orange {
+.button-primary {
     background-color: #FF6600;
     color: #FFFFFF;
     cursor: pointer;
     pointer-events: auto;
 }
 
-.button-default_color_orange:hover{
+.button-primary:hover{
     background-color: #F06000;
 }
 
-.button-default_color_orange:disabled {
+.button-primary:disabled {
     background-color: #e6e7eb;
     color: #9397a3;
   }
