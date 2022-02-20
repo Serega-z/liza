@@ -1,4 +1,4 @@
-const whiteButtons = document.querySelectorAll('.button-default_white');
+const whiteButtons = document.querySelectorAll('.button-default_color_white');
 const levelButton = document.getElementById('filterslevel');
 const statusButton = document.getElementById('filtersstatus');
 const filtersOptLevel = document.querySelector('.filters__options_type_level');
@@ -9,8 +9,8 @@ const chipTemplate = document.querySelector('#chips-template').content;
 const checkboxResetButton = document.querySelector('.filters__reset-button');
 
 function changeButton (evt){
-  evt.target.classList.remove('button-default_white');
-  evt.target.classList.add('button-default_orange');
+  evt.target.classList.remove('button-default_color_white');
+  evt.target.classList.add('button-default_color_orange');
   evt.target.innerText = "Продолжить";
 }
 
