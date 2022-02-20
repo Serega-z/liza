@@ -1,6 +1,6 @@
 .form {
   width: 648px;
-  height: 732px;
+  min-height: 732px;
   padding: 32px;
   margin: 0 0 24px 0;
   border-radius: 16px;

@@ -1,5 +1,5 @@
 .filters__title {
-    height: 28px;
+    min-height: 28px;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
