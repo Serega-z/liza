@@ -1,4 +1,4 @@
-.filters-list__item {
+.filters__item {
     display: flex;
     flex-direction: row;
     align-items: flex-start;

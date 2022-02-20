@@ -11,9 +11,12 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
-
 @import url(../blocks/main/__title/main__title.css);
-@import url(../blocks/main/__blocks/main__blocks.css);
+
+@import url(../blocks/sections/sections.css);
+@import url(../blocks/sections/__filters/sections__filters.css);
+@import url(../blocks/sections/__cards/sections__cards.css);
+
 
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__info/profile__info.css);
@@ -21,26 +24,28 @@
 @import url(../blocks/profile/__help-info/profile__help-info.css);
 @import url(../blocks/profile/__help-info-list/profile__help-info-list.css);
 
-@import url(../blocks/filters-block/filters-block.css);
-@import url(../blocks/filters-block/filters-list/filters-list.css);
-@import url(../blocks/filters-block/filters-list/__point/filters-list__point.css);
-@import url(../blocks/filters-block/filters-list/__point/__item/filters-list__item.css);
-@import url(../blocks/filters-block/filters-list/__point/__item/__text/filters-list__text.css);
-@import url(../blocks/filters-block/filters-list/__point/__item/__button/filters-list__button.css);
-@import url(../blocks/filters-block/filters-list/__options/filters__options.css);
-@import url(../blocks/filters-block/filters-list/__options/_opened/filters__options_opened.css);
-@import url(../blocks/filters-block/filters-list/__options/checkbox-container/checkbox-container.css);
-@import url(../blocks/filters-block/filters-list/__options/checkbox-container/__input-hidden/checkbox-container__input-hidden.css);
-@import url(../blocks/filters-block/filters-list/__options/checkbox-container/__content/checkbox-container__content.css);
-@import url(../blocks/filters-block/filters-list/__header/filters-list__header.css);
-@import url(../blocks/filters-block/filters-list/__header/__title/filters-list__title.css);
-@import url(../blocks/filters-block/filters-list/__header/__reset-button/filters-list__reset-button.css);
-@import url(../blocks/filters-block/filters-list/__header/__reset-button/_active/filters-list__button_active.css);
-@import url(../blocks/filters-block/chips-container/chips-container.css);
-@import url(../blocks/filters-block/chips-container/chips/chips.css);
-@import url(../blocks/filters-block/chips-container/chips/__text/chips__text.css);
-@import url(../blocks/filters-block/chips-container/chips/__close-button/chips__close-button.css);
-@import url(../blocks/filters-block/filters/__button/_open/filters-list__button_open.css);
+@import url(../blocks/filters/filters.css);
+@import url(../blocks/filters/_open/filters_open.css);
+@import url(../blocks/filters/__button/filters__button.css);
+@import url(../blocks/filters/__button/_open/filters__button_open.css);
+@import url(../blocks/filters/__header/filters__header.css);
+@import url(../blocks/filters/__item/filters__item.css);
+@import url(../blocks/filters/__options/filters__options.css);
+@import url(../blocks/filters/__options/_opened/filters__options_opened.css);
+@import url(../blocks/filters/__point/filters__point.css);
+@import url(../blocks/filters/__reset-button/filters__reset-button.css);
+@import url(../blocks/filters/__reset-button/_active/filters__button_active.css);
+@import url(../blocks/filters/__text/filters__text.css);
+@import url(../blocks/filters/__title/filters__title.css);
+
+@import url(../blocks/checkbox-container/checkbox-container.css);
+@import url(../blocks/checkbox-container/__input-hidden/checkbox-container__input-hidden.css);
+@import url(../blocks/checkbox-container/__content/checkbox-container__content.css);
+
+@import url(../blocks/chips-container/chips-container.css);
+@import url(../blocks/chips/chips.css);
+@import url(../blocks/chips/__text/chips__text.css);
+@import url(../blocks/chips/__close-button/chips__close-button.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/_type/form_type_personal.css);
@@ -63,20 +68,19 @@
 @import url(../blocks/profile-card/__info-block/profile-card__info-block.css);
 @import url(../blocks/profile/__text/profile__text.css);
 
-@import url(../blocks/cards-block/cards-block.css);
-@import url(../blocks/cards-block/card/__additionalinfo/card-course__additionalinfo.css);
-@import url(../blocks/cards-block/card/__additionalinfo/__image/card-course__additionalinfo__image.css);
-@import url(../blocks/cards-block/card/__additionalinfo/__item/card-course__additionalinfo__item.css);
-@import url(../blocks/cards-block/card/__additionalinfo/__items/card-course__additionalinfo__items.css);
-@import url(../blocks/cards-block/card/__button/button-default.css);
-@import url(../blocks/cards-block/card/__button/_center/button-default_center.css);
-@import url(../blocks/cards-block/card/__button/_orange/button-default_orange.css);
-@import url(../blocks/cards-block/card/__button/_white/button-default_white.css);
-@import url(../blocks/cards-block/card/__course/card-course.css);
-@import url(..//blocks/cards-block/card/__course/__description/card-course__description.css);
-@import url(../blocks/cards-block/card/__course/__image/card-course__image.css);
-@import url(../blocks/cards-block/card/__course/__info/card-course__info.css);
-@import url(../blocks/cards-block/card/__course/__lessons-hours/card-course__lessons-hours.css);
-@import url(../blocks/cards-block/card/__course/__level/card-course__level.css);
-@import url(../blocks/cards-block/card/__course/__title/card-course__title.css);
-@import url(../blocks/cards-block/card/__course/__wrapper/card-course__wrapper.css);
+@import url(../blocks/card/__additionalinfo/card-course__additionalinfo.css);
+@import url(../blocks/card/__additionalinfo/__image/card-course__additionalinfo__image.css);
+@import url(../blocks/card/__additionalinfo/__item/card-course__additionalinfo__item.css);
+@import url(../blocks/card/__additionalinfo/__items/card-course__additionalinfo__items.css);
+@import url(../blocks/card/__button/button-default.css);
+@import url(../blocks/card/__button/_center/button-default_center.css);
+@import url(../blocks/card/__button/_orange/button-default_orange.css);
+@import url(../blocks/card/__button/_white/button-default_white.css);
+@import url(../blocks/card/__course/card-course.css);
+@import url(..//blocks/card/__course/__description/card-course__description.css);
+@import url(../blocks/card/__course/__image/card-course__image.css);
+@import url(../blocks/card/__course/__info/card-course__info.css);
+@import url(../blocks/card/__course/__lessons-hours/card-course__lessons-hours.css);
+@import url(../blocks/card/__course/__level/card-course__level.css);
+@import url(../blocks/card/__course/__title/card-course__title.css);
+@import url(../blocks/card/__course/__wrapper/card-course__wrapper.css);
