@@ -8,3 +8,8 @@
    	position: absolute;
     z-index: -1;
 }
+
+.open .filters__options{
+	position: static;
+	z-index: 1;
+}
