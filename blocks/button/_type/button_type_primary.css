@@ -1,0 +1,10 @@
+.button_type_primary {
+    background-color: #FF6600;
+    color: #FFFFFF;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.button_type_primary:hover{
+    background-color: #F06000;
+}
